@@ -17,3 +17,17 @@
   .blue {
     color : #046582;
   }
+       .menu a {
+    text-decoration: none;     /* 밑줄 제거 */
+    color: #0075fa;             /* 카페 느낌의 진한 갈색 */
+    font-weight: bold;         /* 글자 굵게 */
+    margin: 0 15px;             /* 좌우 여백 */
+    font-size: 18px;
+    transition: color 0.3s;     /* 색 바뀔 때 부드럽게 전환 */
+  }
+  css
+  복사
+  편집
+  .menu a:hover {
+    color: #5900ff;             /* 마우스를 올리면 연한 갈색으로 변경 */
+  }
