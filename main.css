@@ -17,6 +17,13 @@
   .blue {
     color : #046582;
   }
+      .menu {
+  background-color: rgba(255, 255, 255, 0.85); /* 반투명 흰 배경 */
+  padding: 20px;
+  margin-bottom: 40px;
+  border-radius: 10px;
+  display: inline-block;
+}
        .menu a {
     text-decoration: none;     /* 밑줄 제거 */
     color: #0075fa;             /* 카페 느낌의 진한 갈색 */
