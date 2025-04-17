@@ -33,7 +33,7 @@
     padding: 12px 28px;
     margin: 10px 8px;
     border-radius: 6px; /*모서리 페더 값*/
-    border: 1px solid #000000;
+   
     box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.07);
     transition: all 0.3s ease;
     backdrop-filter: blur(2px);         /* 약간의 유리 효과 */
