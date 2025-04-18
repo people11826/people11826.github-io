@@ -15,9 +15,43 @@
   }
   
   .blue {
-    color : #046582;
+    color : #12415F;
   }
-     .menu {
+  
+  .bebas-neue-regular {
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+.noto-sans-kr-<uniquifier> {
+  font-family: "Noto Sans KR", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 800;
+  font-style: normal;
+}
+
+  @font-face {
+    font-family: 'Pretendard-Regular';
+    src: url('https://fastly.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+}
+  @font-face {
+    font-family: 'EliceDigitalBaeum-Bd';
+    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_elice@1.0/EliceDigitalBaeum-Bd.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+hr{
+  background-color: rgb(135, 169, 159);
+  height: 2px;
+}
+
+.head{
+    color: rgb(18,65, 95);
+}
+  .menu {
     margin-bottom: 0px;
   }
   
@@ -26,23 +60,40 @@
     display: inline-block;
     vertical-align: middle;
     background: linear-gradient(145deg, #fefefe, #ffffff); /* 은은한 배경 */
-    color: #5703ff;                     /* 부드러운 고동색 글자 */
+    color: #222124;                     /* 부드러운 고동색 글자 */
     text-decoration: none;
-    font-weight: 600;
+    font-family: 'Pretendard-Regular';
+    font-weight: 900;
     font-size: 17px;    
     padding: 12px 28px;
     margin: 10px 8px;
     border-radius: 6px; /*모서리 페더 값*/
-   
+    
     box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.07);
     transition: all 0.3s ease;
-    backdrop-filter: blur(2px);         /* 약간의 유리 효과 */
+    backdrop-filter: blur(5px);         /* 약간의 유리 효과 */
   }
   
   .menu-item:hover {
-    background: linear-gradient(145deg, #b9c6ff, #f86374); /* 은은한 핑크빛 */
-    color: #a37c6c;
+    /* /* background: linear-gradient(145deg, #cfd8ff, #257ffc);  */
+    color: #d02f2f;
     transform: translateY(-2px);         /* 살짝 떠오르는 효과 */
     transform: scale(1.05);
-    box-shadow: 4px 6px 12px rgba(0, 0, 0, 0.12);
+    box-shadow: 4px 6px 12px rgba(30, 30, 30, 0.12);
+  }
+
+  .menu-list {
+    color: #7300ff;                
+    font-size: 20px;    
+  }
+  .top {
+
+    color: #FB9590;                
+    font-size: 60px;    
+  }
+  
+  .middle {
+    font-family: "Noto Sans KR", sans-serif;
+    color: #12415F;                
+    font-size: 20px;    
   }
